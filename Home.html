@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio Zian Lalleman</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1a81bc;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #1a81bc;;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Zian Lalleman</h1>
+  <p>Portfolio</p>
+</div>
+
+<div class="navbar">
+  <a href="/Home.html">Home</a>
+  <a href="https://www.linkedin.com/feed/">linkedin</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Introduction</h2>
+    <p>My name is <b>Zian</b> welcome to my website!</p>
+    <p>I am 17 years old (<i>almost 18</i>) and i am now in the thirth year of my education.
+       My hobbies are basketball going to the gym hanging out with friends and watching videos about the newest technologie.
+      I also really like music, one of the artist i like most is <b>Travis Scott</b>.
+    I went to his concert not that long ago in londen and it was awesome!</p>
+    <h4><b>Education trailer</b></h4>
+    <iframe width="420" height="315"
+src="https://www.youtube.com/embed/dbUN4kQgF9E">
+</iframe>
+  
+  </div>
+  <div class="main">
+    <h2>Information about my education </h2>
+    <h4>IT Systems & Devices</h4>
+    <img src="images/images.png" alt="LOGO GLR" width="50" height="60">
+    <p>What do you actually learn in the study <b>IT Systems & Devices?</b> </p>
+    <p>In the direction of IT Systems & Devices, you learn basic IT skills, covering working with virtualization, networks, cloud and Windows and Linux servers. In addition, you learn in projects how to integrate IT systems and audiovisual equipment with each other.
+      There are also three main topics on the agenda:
+      Technology in the audiovisual world: you will learn everything about mobile management at events and working with multi-projection (creating a good technical image via beamers, multiple screens and 3D video mapping).
+      Live broadcast: here you learn to set up an error-free live stream for different devices, such as mobile and computer. You will also get to work with virtual studios and augmented reality.
+      System Integration: Integrating audio and video with Wi-Fi, access control, security, projection and communication systems. Here you will learn to make a 'total solution' for companies, houses or, for example, large pleasure yachts.
+        
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
